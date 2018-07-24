@@ -1,0 +1,48 @@
+canvas{
+    border: solid 3px;
+    cursor: url('../imagenes/lapizcursor.gif'), default;
+    background-color:#FDFEFE;
+} 
+
+.herramientas{
+	width: 200px;
+
+}
+.herramientas div{
+    background-color: #2874A6;
+}
+
+h1{
+    text-align: center;
+    font-family:'Courgette', cursive;
+    color: #154360;
+}
+h2{
+    text-align: left;
+    font-family:'Courgette', cursive;
+    color: #154360;
+}
+
+.herramientas div:hover{
+    border: solid #ECF0F1 4px;
+}
+.herramientas img:hover{
+    border: solid #ECF0F1 5px;
+}
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover, #img7:hover{
+	filter: saturate(400%);
+	-webkit-transform:scale(2.1);transform:scale(1.1);
+}
+body{
+    background-color: #2E4053;
+}
+div, #acti{
+    background-color: #52BE80;
+    border-radius: 1em;
+    padding: 1em;
+    height: 100%;
+}s
+
+a{
+    color: #B7950B;
+}

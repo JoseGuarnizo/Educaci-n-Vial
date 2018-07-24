@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colorear</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" href="../css/stylecolorear.css">
+</head>
+
+<style type="text/css">
+	
+	#div1{
+		width: 250px;
+		height: 170px;
+		padding: 10px;
+		border: 1px solid #aaaaaa;
+	}
+
+</style>
+
+
+<script type="text/javascript">
+
+	function allowDrop(ev) {
+		ev.preventDefault();
+	}
+
+	function drag(ev) {
+		ev.dataTransfer.setData("text", ev.target.id);
+	}
+
+	function drop(ev) {
+		ev.preventDefault();
+		var data = ev.dataTransfer.getData("text");
+		ev.target.appendChild(document.getElementById(data));
+	}
+
+
+</script>
+
+
+<body>
+
+	<h1>Colorear</h1>
+
+
+	<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+	<div id="container">
+
+		<img id="img1" draggable="true" ondragstart="drag(event)" src="../imagenes/ambu.png" hspace="10" width="150" height="100" hspace="10" vspace="10" border="5" />
+
+		<img id="img2" draggable="true" ondragstart="drag(event)" src="../imagenes/bombero.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+
+		<img id="img3" draggable="true" ondragstart="drag(event)" src="../imagenes/police.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+
+		<img id="img4" draggable="true" ondragstart="drag(event)" src="../imagenes/foto.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+
+		<img id="img5" draggable="true" ondragstart="drag(event)" src="../imagenes/parada.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+
+		<img id="img6" draggable="true" ondragstart="drag(event)"src="../imagenes/estacionarNO.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+
+		<img id="img7" draggable="true" ondragstart="drag(event)"src="../imagenes/gasolina.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+
+		<img id="img8" draggable="true" ondragstart="drag(event)"src="../imagenes/observar.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+
+		<img id="img9" draggable="true" ondragstart="drag(event)" src="../imagenes/Informativa.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+
+		<img id="img10" draggable="true" ondragstart="drag(event)" src="../imagenes/parada.png" width="150" height="100" hspace="10" vspace="10" border="5"/>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro Actividiades Vial</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+
+<script type="text/javascript">
+	
+	function validar() {
+		var nombre = document.getElementById("nombre").value;
+
+		if (nombre.length>30){
+			alert("El nombre es muy largo");
+		}
+	}
+</script>
+
+<body>
+
+	<div id="contenedor">
+		<center>
+			<h1>REGISTRO ACTIVIDADES</h1>
+
+			<form name="form" action="logica.php" method="post" onsubmit="return validar();">
+				<p><input type="text" name="nombre" id="nombre" required placeholder="NOMBRE" maxlength="30" /></p>
+				<input type="submit" value="Guardar" class="btn-enviar" id="guardar"/>
+			</form>
+
+		</center>
+	</div>
+
+</body>
+</html>

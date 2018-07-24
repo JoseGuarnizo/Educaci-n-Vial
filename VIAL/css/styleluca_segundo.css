@@ -1,0 +1,55 @@
+body{
+  background-color: #2E86C1;
+}
+div{
+	margin: 1.5em;
+	background-image: url("../imagenes/fondoluca1.jpg");
+	border-radius: 1em;
+	padding: 1em;
+
+
+}
+h1{
+	font-family:'Courgette', cursive;
+	color: #34495E;
+}
+h3{
+	font-family:'Courgette', cursive;
+	color: #154360;	
+}
+p{
+	font-family:'Gloria Hallelujah', cursive;
+}
+#img1{
+	position:absolute;
+	top:10em;
+	bottom: 22em;
+	right: 60em;
+	width: 20em;
+}
+#img2{
+	position:absolute;
+	top:34em;
+	bottom: 22em;
+	right: 40em;
+	width: 9em;
+}
+#img3{
+	position:absolute;
+	top:24em;
+	bottom: 22em;
+	right: 29em;
+	width: 9em;
+}
+#img4{
+	position:absolute;
+	top:50em;
+	bottom: 22em;
+	right: 4em;
+	width: 20em;
+}
+
+#l2{
+	top: 5em;
+}
+

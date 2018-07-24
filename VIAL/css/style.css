@@ -1,0 +1,87 @@
+html{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+body{
+	background-image: url("../imagenes/a1.jpg");
+ 	position: relative;
+ 	height: 100em;
+ 	background-size: 100em;
+ 	height: 15em;
+}
+
+#contenedor{
+	width: 450px;
+	height: 250px;
+	background-color: #F7DC6F;
+	box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, .8);
+	-webkit-border-radius:5px;
+	-moz-border-radius:10px;
+	padding: 35px 45px 35px 50px;
+	margin: auto;
+	margin-top: 65px;
+	border-radius: 9px;
+	margin-right: center;
+	right: 50%;
+}
+.input{
+	width:200%;
+	height: 100%;
+    padding:15px 35px;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background: #1A5276;
+	padding: 13px 13px 13px 13px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	color: #333;
+	font-size: 14px;
+	margin-top:15px;
+
+}
+
+#cedula{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #21618C;
+	width: 210px;
+	height: 30px;
+	text-orientation: center;
+}
+
+#nombre{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color: #1D8348;
+	width: 210px;
+	height: 30px;
+	text-orientation: center;
+}
+#guardar{
+	font-family: principal;
+	float: center;
+	width: 50%;
+	cursor: pointer;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 670px;
+	transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+}
+#guardar:hover{
+	background-color: rgba(0,0,0,0);
+	color: #1D8348;
+}
+h1{
+	color: #2E4053;
+}
+p{
+	color:  #1A5276;
+	font-size: 20px;
+	font-weight: 670px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	float: center;
+	height: 40px;
+}
