@@ -1,3 +1,10 @@
+img{
+	width: 30em;
+	height: 25em;
+}
+h2{
+	color: yellow;
+}
 body{
 	background-image: url("http://staticf5b.diaadia.info/sites/default/files/styles/landscape_1008_566/public/nota_periodistica/caminera1_0.jpg");
   	background-position: center center;
@@ -7,39 +14,45 @@ body{
 	height: 100%;
 }
 .container_c{
-	background-color: #F0F3F4;
+	background-color: #ECF0F1;
 	text-align: justify;
 	width: 600px;
-	height: 810px;
+	height: 1220px;
 	border-radius: 1em;
 	padding: 3em;
 }
-#titulo h2{
-	font-family:'Courgette', cursive;
-    color: #273746;
-    font-size: 1.8em;
-}
 input{
-	background-color: #5499C7;
-	width: 300px;
+	background-color: #D1F2EB;
+	width: 100px;
 }
 b{
 	font-family:'Courgette', cursive;
     color: #212F3D;
     font-size: 1.5em;
 }
-#pregunta1 input{
-	height: 7em;
-	width: 30em;
-}
 #button input{
-	background-color: #ECF0F1;
-	width: 10em;
+	width: 150px;
+	background-color: #F7F9F9;
 }
-#imagenb img{
+h3{
+	font-family:'Courgette', cursive;
+    color: #212F3D;
+    font-size: 1.5em;	
+}
+#titulo h2{
+	font-family:'Courgette', cursive;
+    color: #273746;
+    font-size: 1.8em;
+}
+#titulo h3{
+	font-family:'Courgette', cursive;
+    color: #273746;
+    font-size: 1.8em;	
+}
+#imagenbc img{
 	position: absolute;
 	width: 50px;
 	height: 50px;
 	right: 400px;
-	top: 816px;
+	top: 1227px;
 }
