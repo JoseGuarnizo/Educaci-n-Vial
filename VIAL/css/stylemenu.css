@@ -1,3 +1,11 @@
+body{
+	background-image: url("https://png.pngtree.com/element_origin_min_pic/17/09/01/bb0e36ee352009bdfd619fd85cbd25ba.jpg");
+  	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+}
 #contenedor{
 	filter: saturate(180%);
 	-webkit-transform:scale(1.3);transform:scale(1.3);
@@ -12,6 +20,7 @@
 	border-radius: 9px;
 	margin-right: center;
 	right: 50%;
+	height: 370px;
 }
 a{
  	font-size:20px;
@@ -26,4 +35,52 @@ body{
  	background-size: 100em;
  	position: relative;
  	height: 15em;
+}
+#img4{
+	height: 55px;
+}
+/*----------------------------*/
+#m1{
+	position: absolute;
+	left: 10px;
+}
+#m2{
+	position: absolute;
+	left: 10px;
+	top: 250px;
+}
+#m3{
+	position: absolute;
+	right: 80px;
+	top: 120px;
+}
+#m4{
+	position: absolute;
+	right: 80px;
+	top: 260px;
+}
+#m5{
+	position: absolute;
+	right: 200px;
+	top: 360px;
+}
+/*----------------------------*/
+#mm1{
+	position: absolute;
+	left: 10px;	
+}
+#mm2{
+	position: absolute;
+	left: 10px;
+	top: 250px;
+}
+#mm3{
+	position: absolute;
+	right: 80px;
+	top: 120px;
+}
+#mm4{
+	position: absolute;
+	right: 80px;
+	top: 255px;
 }

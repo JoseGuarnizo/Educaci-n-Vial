@@ -1,0 +1,399 @@
+
+*{
+	margin: 0%;
+	padding: 0%;	
+}
+ .cuerpo, html{
+	background-color: #EAE9E1;
+	
+}
+
+.titlesis h1{
+	/*background: green;*/
+	text-align: center;
+	padding: 1em;
+	font-family: 'Lora', serif;
+	
+}
+
+header{
+	width: 100%;
+	background: #00457E;
+	padding: 1.5em 0em;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed;
+	z-index: 100;
+}
+header:hover{
+	opacity: 0.8;
+}
+header.header-scrolled {
+  background: black;
+  transition: all 0.5s;
+}
+header div{
+	width: 10%;
+	display: inline-block;	
+	margin-left: 1.3em;
+}
+
+.logo{
+	width: 50%;
+	margin-left: 1em;
+	
+}
+header .menu{
+	width: 80%;
+	display:inline-block;
+	text-align: center;
+	
+}
+header .menu a{
+	text-decoration: none;
+	padding: 0em 2.1em 0em;
+	color: white;
+	font-size: 1.8em;
+	font-family: 'Josefin Slab';
+
+}
+.icons{
+	width: 20%;
+	display: inline-block;
+}
+.icon-search{
+	width: 5%;
+	display: inline-block;
+	float: left;
+	padding: 0.5em 0em;
+	color: white;
+	margin-right: 0.5em;
+}
+#buscar{
+	background-color: white;
+	border-radius: 10px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0.4em 0em;
+	display: inline-block;
+}
+.carousel-caption h3{
+	color: black;
+}
+
+main{
+	padding-top: 6.8em;
+	margin:0 auto;
+	width: 100%;
+	/*background: blue;*/
+}
+
+.container{
+	margin:1em auto;
+	width: 100%;
+	/*background: red;*/
+}
+#demo{
+	margin-top: 2.9em;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+      
+  }
+#imagen1{
+background:url (../imagenes/prueba12.jpg);
+width: 100%;
+height: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+.texto{
+	text-align: center;
+	width: 74%;
+	margin: 0 auto;
+	background:#fff;
+	padding: 1em;
+	border-radius: 0.3em;
+
+}
+.parrafo{
+	text-align: justify;
+	width: 100%;
+}
+.noticias{
+	width: 89%;
+	margin: 1em auto;
+	font-family: 'Noto Sans', sans-serif;
+	text-align: center;
+	
+}
+.noticias .titulo{
+	color: #00457E;
+	text-align: left;
+	margin-left: 2.2em;
+	font-size: 2.2em;
+	font-family: 'Josefin Slab';
+
+}
+.np{
+	font-family: 'Josefin Slab';
+}
+.detalle_noticia{
+	width: 30%;
+	/*background:green;*/
+	color: #000;
+	text-align: justify;
+	display: inline-block;
+	border-radius: 1em;
+	box-shadow: 0.2em 0.2em 0.2em #333;
+	margin:0em 0.5em;
+	background: #C2C2BD;
+	vertical-align: top;
+}
+
+.detalle_noticia img{
+	width: 100%;
+	height: 100%;
+	/*border-radius: 0.5em;*/
+	transition: .8s ease-in-out;
+	
+}
+.detalle_noticia h3{
+	text-align: center;
+	background: #00457E;
+	padding: 0.3em;
+	margin-bottom: 0em;
+	color: white;
+	margin-top: 0em;
+	border-radius: 0.2em 0.2em 0em 0em;
+	/*font-size: 2em;*/
+	font-size: 2em;
+	font-family: 'Josefin Slab';
+}
+
+.detalle_noticia nav{
+	margin: 1em auto;
+	width: 90%;
+}
+.detalle_noticia nav b p,.detalle_noticia  nav h5{
+	display: inline-block;
+	width: 47%;
+	/*background: red;*/
+	margin: 0 auto;
+	font-size: 1.5em;
+	text-align: left;
+	font-family: 'Josefin Slab';
+
+}
+
+.detalle_noticia nav b p{
+/*float: left;*/
+padding: 0em;
+color: #00457E;
+t
+}
+.detalle_noticia img:hover{
+	border-radius: 2em 2em  2em;
+	/*border-radius: 50%;*/
+	box-shadow: 4px 4px 6px #fff;
+	filter:drop-shadow(8px 8px 10px gray);
+	/*filter: grayscale(90%);*/
+	filter: saturate(200%);
+	transform:  scale(1.1);
+	transition: .6s ease-in-out;
+}
+/*Estilos footer*/
+footer{
+	background: url(../imagenes/pie-logos.jpg);
+	width: 100%;
+	height: 45%;
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-top: 0.3em;
+	font-family: 'Josefin Slab';
+}
+
+.imagenes_der{
+	color: white;
+	width: 25%;
+	margin-left: 2em;
+	margin-top: 1em;
+	display: inline-block;
+	
+
+}
+.imagenes_der h2{
+	
+	font-size: 2.5em;
+	/*background: red;*/
+	/*font-family: 'Tajawal';*/
+}
+.imagenes_der nav {
+	margin-left: 2.7em;
+	/*background: red;*/
+}
+
+.imagenes_der nav span{
+	display: inline-block;
+	width: 7%;
+
+	
+}
+.icon-map, .icon-mail, .icon-phone{
+	color: yellow;
+	font-size: 1.5em;
+}
+
+.imagenes_der nav  p{
+	display: inline-block;
+	font-size: 1.2em;
+	margin-left: 0.2em;
+	margin-bottom: 0em;
+	font-size: 2em;
+	/*font-family: 'Tajawal';*/
+	
+}
+.imagenes_der nav h4{
+	margin-left: 2em;
+	margin-bottom: 0.2em;
+	font-size: 1em;
+	
+	/*font-family: 'Life Savers';*/
+}
+
+.imagenes_izq{
+	margin-top: 6em;
+	display: inline-block;
+	width: 70%;
+	/*background: blue;*/
+	vertical-align: top;
+}
+.imagenes_izq img{
+	margin-left: 4em;
+}
+.final{
+	 background: #00457E;
+	 margin: 0 auto;
+	 text-align: center;
+
+}
+.final h4{
+	display: inline-block;
+	padding-left: 0.5em;
+	margin: 0.1em;
+
+}
+
+ .icon-facebook,  .icon-twitter, .icon-telegram, .icon-key{
+	color: white;
+	font-size: 1.2em;
+}
+.icon-facebook:hover, .icon-twitter:hover, .icon-telegram:hover, .icon-ke:hover{
+	color: yellow;
+	font-size: 1.3em;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*-ESTILOS DE TEMPLATE HEADER*/
+header .menu .titulo1{
+	color: white;
+	font-family: 'Josefin Slab';
+}
+.boton{
+	background: #00457E;
+	width: 150px;
+	height: 50px;
+	border-radius:10px;
+	color: white;
+	font-family: 'Josefin Slab';
+}
+#tabla{
+	width: 90%;
+	margin:0 auto;
+	background: white;
+	border-radius: 0.5em;
+	margin-top: 1em;
+}
+.scroll{
+	overflow: scroll;
+	height: 100%;
+	width: 98%;
+	background: white;
+	border-radius: 0.5em;
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.tablasismos{
+	margin:0 auto;
+	background: white;
+	border-radius: 0.5em;
+	margin-top: 1em;
+}
+.hola{
+	margin-top:10em;
+	margin-left: 4.5em;
+}
+#map {
+height: 80%;
+width: auto;
+margin-left: 3em;
+margin-right: 3em;
+margin-bottom: 3em;
+border: 2px solid black;
+padding: 10px;
+border-radius: 5px;
+}
+
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*ESTILOS DE GRAFICAS*/
+.graficas{
+text-align: center;
+margin: 0 auto;
+}
+.graficas h2{
+	text-align: center;
+	font-family: 'Lora', serif;
+
+}
+.graficas #piechart, .graficas #top_x_div , .graficas #donutchart{
+	text-align: center;
+	margin: 0 auto;
+	border: solid #BDBDBD;
+	margin: 1em auto;
+}
+.graficas #chart_div{
+	text-align: center;
+	margin: 0 auto;
+	border: solid #BDBDBD;
+	margin: 1em auto;
+}
+
+
+/*ESTILOS REPORTES */
+
+.reportstyle{
+	margin-top:25em;
+	margin-left: 25em;
+	margin-right: 25em;
+	padding: 5em;
+	background:#EAE9E1;
+}
+.botons{
+	width: 40%;
+	padding: 3em;
+	margin: 2em;
+	height: 40px;
+	font-size: 20px;
+	background-color: #17a2b8;
+	color: #fff;
+	border-color: #17a2b8;
+}
+

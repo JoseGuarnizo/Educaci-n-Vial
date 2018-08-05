@@ -1,19 +1,36 @@
-#container{
-	width: 500px;
-	height: 100px;
+body{
+    background-color: #2E4053;
 }
-h1{
+h2{
     text-align: center;
-    color: #17202A;
+    font-family:'Courgette', cursive;
+    color: #F0F3F4;
 }
-img{
-	float: left;
-
+#container {
+	position:absolute;
+	top:46em;
+	bottom: 22em;
+	right: -1em;
+	width: 20em;
 }
-#arrastrar{
-
-
+#container2 {
+	position:absolute;
+	top:10em;
+	bottom: 22em;
+	right: -1em;
+	width: 20em;
 }
-#soltar{
-
+#container3{
+	position:absolute;
+	top:40em;
+	bottom: 22em;
+	right: -1em;
+	width: 20em;
+}
+#container4{
+	position:absolute;
+	top:45em;
+	bottom: 22em;
+	right: -1em;
+	width: 20em;
 }

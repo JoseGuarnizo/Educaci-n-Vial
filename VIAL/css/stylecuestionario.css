@@ -1,0 +1,33 @@
+body{
+	background-image: url("https://www.abc.es/media/familia/2017/10/05/educacion-vial-kxIH--620x349@abc.jpg");
+  	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+}
+.container{
+	background-color: #F7DC6F;
+	text-align: justify;
+	width: 450px;
+	height: 750px;
+	border-radius: 1em;
+	padding: 3em;
+}
+input{
+	background-color: #ECF0F1;
+	width: 350px;;
+}
+#mensaje input{
+	height: 100px;
+}
+b{
+	font-family:'Courgette', cursive;
+    color: #212F3D;
+    font-size: 1.5em;
+}
+h2{
+	text-align: center;
+    font-family:'Courgette', cursive;
+    color: #5DADE2;
+}

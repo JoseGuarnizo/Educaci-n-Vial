@@ -26,11 +26,11 @@ fclose($archivo);
 	<div id="contenedor">
 		<center>
 			<h3>LIBROS DE TRABAJO</h3>
-			<a title="luces" href="http://localhost:8081/VIAL/internas/menu_actividad_segundo.html"><img src="imagenes/luces.png" alt="luces"/></a>
+			<a title="luces" href="http://localhost:8081/Educaci-n-Vial/VIAL/internas/menu_actividad_segundo.html"><img src="imagenes/luces.png" alt="luces"/></a>
 			</br>
 			</br>
 			</br>
-			<a title="seguro" href="http://localhost:8081/VIAL/internas/menuactividad.html"><img src="imagenes/seguro.png" alt="seguro"/></a>
+			<a title="seguro" href="http://localhost:8081/Educaci-n-Vial/VIAL/internas/menuactividad.html"><img src="imagenes/seguro.png" alt="seguro"/></a>
 		</center>
 		</br>
 		</br>

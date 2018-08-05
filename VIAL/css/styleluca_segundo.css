@@ -1,14 +1,62 @@
-body{
-  background-color: #2E86C1;
+img{
+	width: 1000px;
+	height: 500px;
 }
+
+#contenedor{
+	width: 1000px;
+	margin: 30px auto;
+	overflow: hidden;
+	top: 155px;
+	position: relative;
+}
+
+#contenedor ul{
+	list-style: none;
+	width: 4000px;
+	display: flex;
+	animation: slide 20s infinite alternate;
+}
+
+
+@keyframes slide{
+	0% {margin-left: 15px;}
+	20% {margin-left: 15px;}
+
+	25%{margin-left: -1080px;}
+	45%{margin-left: -1080px;}
+
+	50%{margin-left: -2100px;}
+	70%{margin-left: -2100px;}
+
+	75%{margin-left: -3100px;}
+	100%{margin-left: -3100px;}
+}
+body{
+	background-image: url("http://lh3.ggpht.com/_mT2zxTIY7s0/Sh3C3XBNz6E/AAAAAAAAPas/pWyjUuV_zAs/w1200-h630-p-k-no-nu/FondosInfantiles.jpg");
+  	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #999;
+	height: 100%;
+}
+
+
+
+
+/*
 div{
+	
+	 background-size: 77em;
 	margin: 1.5em;
-	background-image: url("../imagenes/fondoluca1.jpg");
+	background-color: #F0F3F4;
 	border-radius: 1em;
 	padding: 1em;
+	height: 25em;
 
 
-}
+}*/
 h1{
 	font-family:'Courgette', cursive;
 	color: #34495E;

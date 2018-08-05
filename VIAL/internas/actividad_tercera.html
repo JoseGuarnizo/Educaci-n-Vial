@@ -11,7 +11,7 @@
 
 <body>
    <div class="global">
-    <B><h1>Colorear Señales de Tránsito Lúminosas</h1></B> 
+    <B><h1>Señales de tránsito luminosas</h1></B> 
 
      <center>
       <div id="container">
@@ -25,6 +25,7 @@
          </div>
       </div>
     </center>
+    <h3>Proceder a dibujar y pintar las siguientes imagenes indicadas en la parte superior</h3>
 <div class="main">
   <div class="canvas-container">
     <canvas id="c" width="790" height="440" class="lower-canvas">
@@ -33,27 +34,29 @@
   
   <div id="todo">
     <div id="drawing-mode-options">
-      <label for="drawing-mode-selector">HERRAMIENTA</label>
-      <select id="drawing-mode-selector">
-        <option class="primero">Pencil</option>
-        <option>Spray</option>
-        <option>Patron</option>
-        <option>Horizontal</option>
-        <option>Vertical</option>
-        <option>cuadrados</option>
-        <option>diamantes</option>
-        <option>textura</option>
-      </select>
+      <div id="pincel">
+        <label for="drawing-mode-selector">HERRAMIENTA</label>
+        <select id="drawing-mode-selector">
+          <option class="primero">Pencil</option>
+          <option>Spray</option>
+          <option>Patron</option>
+          <option>Horizontal</option>
+          <option>Vertical</option>
+          <option>Cuadrados</option>
+          <option>Diamantes</option>
+          <option>Textura</option>
+        </select>
 
-      <br>
-      <label for="drawing-line-width">ANCHO</label>
-      <span class="info"></span>
-      <input type="range" value="0" min="0" max="150" id="drawing-line-width">
-      <br>
+        <br>
+        <label for="drawing-line-width">ANCHO</label>
+        <span class="info"></span>
+        <input type="range" value="0" min="0" max="150" id="drawing-line-width">
+        <br>
 
-      <label for="drawing-color">COLOR</label>
-      <input type="color" value="#17202A" id="drawing-color">
-      <br>
+        <label for="drawing-color">COLOR</label>
+        <input type="color" value="#17202A" id="drawing-color">
+        <br>
+      </div>
 
       <label for="drawing-shadow-color">SOMBRA</label>
       <input type="color" value="#17202A" id="drawing-shadow-color">
@@ -186,13 +189,13 @@
           else if (this.value === 'Vertical') {
               canvas.freeDrawingBrush = hLinePatternBrush;
           }
-          else if (this.value === 'cuadrados') {
+          else if (this.value === 'Cuadrados') {
               canvas.freeDrawingBrush = squarePatternBrush;
           }
-          else if (this.value === 'diamantes') {
+          else if (this.value === 'Diamantes') {
               canvas.freeDrawingBrush = diamondPatternBrush;
           }
-          else if (this.value === 'textura') {
+          else if (this.value === 'Textura') {
               canvas.freeDrawingBrush = texturePatternBrush;
           }
           else {

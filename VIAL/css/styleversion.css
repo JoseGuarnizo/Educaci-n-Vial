@@ -139,12 +139,6 @@ h3{
 #container img{
 	width: 70%;
 }
-#container1 {
-	display: block;
-}
-#container2 {
-	display: block;
-}
 #containern1 {
 	display: block;
 	width: 12%;
@@ -153,66 +147,6 @@ h3{
 	width: 100%;
 }
 #containern1 p{
-	font-size: 1em;
-}
-#containern2 {
-	display: block;
-	width: 12%;
-}
-#containern2 img{
-	width: 100%;
-}
-#containern2 p{
-	font-size: 1em;
-}
-#containern3 {
-	display: block;
-	width: 12%;
-}
-#containern3 img{
-	width: 100%;
-}
-#containern3 p{
-	font-size: 1em;
-}
-#containern4 {
-	display: block;
-	width: 12.5%;
-}
-#containern4 img{
-	width: 110%;
-}
-#containern4 p{
-	font-size: 1em;
-}
-#containern5 {
-	display: block;
-	width: 12.5%;
-}
-#containern5 img{
-	width: 125%;
-}
-#containern5 p{
-	font-size: 1em;
-}
-#containern6 {
-	display: block;
-	width: 13%;
-}
-#containern6 img{
-	width: 100%;
-}
-#containern6 p{
-	font-size: 1em;
-}
-#containern7 {
-	display: block;
-	width: 12%;
-}
-#containern7 img{
-	width: 100%;
-}
-#containern7 p{
 	font-size: 1em;
 }
 p{
@@ -248,4 +182,16 @@ p{
 }
 #sombra{
 	background-color: #B2BABB;
+}
+#cuadro{
+    width: 350px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+#containern1 img{
+	width: 150px;
+    height: 95px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;	
 }

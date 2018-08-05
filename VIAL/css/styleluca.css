@@ -1,28 +1,64 @@
+
 body{
-  background-color: #27AE60;
+  background-image: url("https://www.freegreatpicture.com/files/200/18809-cartoon-landscape-illustration.jpg");
+  background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #999;
+	height: 100%;
 }
-div{
-	margin: 1.5em;
-	background-image: url("../imagenes/fondoluca1.jpg");
-	border-radius: 1em;
-	padding: 1em;
+
+#parrafo1{
+	top: 14px;
+	position: relative;
+	right: 370px;
+	font-size: 0.9em;
+	font-family:'Gloria Hallelujah', cursive;
 }
+
+#parrafo2{
+	top: 15px;
+	position: relative;
+	left: 120px;
+	font-size: 0.9em;
+	font-family:'Gloria Hallelujah', cursive;
+}
+#parrafo3{
+	top: 85px;
+	position: absolute;
+	left: 550px; 
+	height: 50px;
+	font-size: 0.9em;
+	font-family:'Gloria Hallelujah', cursive;
+	color: #17202A;
+}
+
+#parrafo4{
+	top: 85px;
+	position: absolute;
+	right: 4px; 
+	height: 50px;
+	font-size: 0.9em;
+	font-family:'Gloria Hallelujah', cursive;
+}
+
+img{
+	top: 300px;
+	position: absolute;
+	right: 35px; 
+	height: 200px;
+	width: 320px;
+}
+h2{
+	font-family:'Courgette', cursive;
+	color: #154360;	
+	position: absolute;
+	right: 170px; 
+	top: 500px;
+}
+
 h1{
 	font-family:'Courgette', cursive;
 	color: #154360;
-}
-h3{
-	font-family:'Courgette', cursive;
-	color: #154360;	
-}
-p{
-	font-family:'Gloria Hallelujah', cursive;
-}
-#img1{
-	position:absolute;
-	top:7em;
-	bottom: 22em;
-	right: 2em;
-	width: 52em;
-	height: 70em;
 }
