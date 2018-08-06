@@ -42,6 +42,18 @@ body{
 	font-size: 0.9em;
 	font-family:'Gloria Hallelujah', cursive;
 }
+ #ir a{
+	font-size:20px;
+	color:#B7950B;	
+	position: absolute;
+	top: 520px;
+	right: 4px;
+}
+#fin{
+	position: absolute;
+	top: 50px;
+	right: 4px;	
+}
 
 img{
 	top: 300px;
